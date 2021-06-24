@@ -1,0 +1,19 @@
+{
+  "extends": "@tsconfig/node14/tsconfig.json",
+  "compilerOptions": {
+    "sourceMap": true,                           /* Generates corresponding '.map' file. */
+    "rootDir": "./",                             /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
+    "removeComments": true,       /* Do not emit comments to output. */
+
+    "strictNullChecks": true,                    /* Enable strict null checks. */
+    "strictPropertyInitialization": true,        /* Enable strict checking of property initialization in classes. */
+    "alwaysStrict": false,                        /* Parse in strict mode and emit "use strict" for each source file. */
+    "noUnusedLocals": true,                      /* Report errors on unused locals. */
+    "experimentalDecorators": true,              /* Enables experimental support for ES7 decorators. */
+    "emitDecoratorMetadata": true,               /* Enables experimental support for emitting type metadata for decorators. */
+  },
+  "include": ["src"],
+  "exclude": [
+    "node_modules"
+  ]
+}

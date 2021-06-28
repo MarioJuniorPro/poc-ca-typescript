@@ -23,19 +23,6 @@ module.exports = {
     "@typescript-eslint/ban-types": "error",
     "@typescript-eslint/consistent-type-assertions": "error",
     "@typescript-eslint/consistent-type-definitions": "error",
-
-    // "@typescript-eslint/indent": [
-    //   "off",
-    //   4,
-    //   {
-    //     FunctionDeclaration: {
-    //       parameters: "first"
-    //     },
-    //     FunctionExpression: {
-    //       parameters: "first"
-    //     }
-    //   }
-    // ],
     "@typescript-eslint/member-delimiter-style": [
       "error",
       {
@@ -114,7 +101,7 @@ module.exports = {
     "no-throw-literal": "error",
     "no-trailing-spaces": "error",
     "no-undef-init": "error",
-    "no-underscore-dangle": "error",
+    "no-underscore-dangle": "off",
     "no-unsafe-finally": "error",
     "no-unused-expressions": "error",
     "no-unused-labels": "error",

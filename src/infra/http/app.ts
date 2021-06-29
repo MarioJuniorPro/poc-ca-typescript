@@ -3,9 +3,9 @@ import compression from 'compression';
 import cors from 'cors';
 import express, { Application, NextFunction, Request, Response, Router } from 'express';
 import helmet from 'helmet';
-import { AppConfigProperties } from '../../shared/config/app.config';
-import { logger } from '../../shared/logger';
-import { HttpException } from './errors/http.error';
+import { AppConfigProperties } from '@/shared/config/app.config';
+import { logger } from '@/shared/logger';
+import { HttpException } from '@/infra/http/errors/http.error';
 
 type Route = (router: Router) => void;
 

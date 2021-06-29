@@ -1,6 +1,6 @@
 import * as bcrypt from 'bcrypt';
 import * as Joi from 'joi';
-import { ValueObject } from '../../../../core/domain/value-object';
+import { ValueObject } from '@/core/domain/value-object';
 import { InvalidPasswordError } from '../errors/invalid-password.error';
 
 interface UserPasswordProps {

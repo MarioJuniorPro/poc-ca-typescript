@@ -1,5 +1,5 @@
-import { Entity } from '../../../../core/domain/entity';
-import { UniqueEntityId } from '../../../../core/domain/unique-entity-id';
+import { Entity } from '@/core/domain/entity';
+import { UniqueEntityId } from '@/core/domain/unique-entity-id';
 import { UserEmail } from './user-email.entity';
 import { UserId } from './user-id.entity';
 import { UserPassword } from './user-password.entity';

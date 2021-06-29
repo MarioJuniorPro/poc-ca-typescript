@@ -1,4 +1,4 @@
-import { shallowEqualObjects } from '../../utils/object.util';
+import { shallowEqualObjects } from '@/utils/object.util';
 
 interface ValueObjectProps {
   [index: string]: any;

@@ -1,5 +1,5 @@
 import { Server } from 'http';
-import { logger } from '../../../shared/logger';
+import { logger } from '@/shared/logger';
 
 export const terminate = (server: Server, options = { coreDump: false, timeout: 500 }): any => {
   // Exit function

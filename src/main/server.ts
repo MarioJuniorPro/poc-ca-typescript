@@ -14,7 +14,7 @@ const bootstrap = async () => {
   /**
    * Sample of async route loading.
    */
-  const { route: SampleRoute } = await import('../infra/http/routes/sample.route');
+  const { route: SampleRoute } = await import('@/infra/http/routes/sample.route');
 
   // Build app configuration.
   const appConfig = AppConfig.build(process.env as any);

@@ -1,10 +1,11 @@
 import dotenv from 'dotenv';
+import 'module-alias/register';
 dotenv.config();
 
-import { App } from '../infra/http/app';
-import { terminate } from '../infra/http/util/terminate.util';
-import { AppConfig } from '../shared/config/app.config';
-import { logger } from '../shared/logger';
+import { App } from '@/infra/http/app';
+import { terminate } from '@/infra/http/util/terminate.util';
+import { AppConfig } from '@/shared/config/app.config';
+import { logger } from '@/shared/logger';
 
 /**
  * Boot the Application Server.

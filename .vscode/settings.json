@@ -2,5 +2,8 @@
     "cSpell.ignoreWords": [
         "alphanum"
     ],
-    "typescript.tsdk": "node_modules/typescript/lib"
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "cSpell.words": [
+        "usecase"
+    ]
 }

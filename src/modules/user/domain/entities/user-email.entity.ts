@@ -1,5 +1,5 @@
-import * as Joi from 'joi';
 import { ValueObject } from '@/core/domain/value-object';
+import * as Joi from 'joi';
 import { InvalidEmailError } from '../errors/invalid-email.error';
 
 interface UserEmailProps {
